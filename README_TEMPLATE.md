@@ -26,14 +26,13 @@ The analysis focuses on identifying sales trends, customer preferences, and fact
 4. [Repository Structure](#4-repository-structure)
 5. [Data Workflow](#5-data-workflow)
 6. [Data Model & Schema](#6-data-model--schema)
-7. [ERD - Entity Relationship Diagram](#7-erd--entity-relationship-diagram) *(SQL projects)*
-8. [Analysis & Metrics](#8-analysis--metrics)
-9. [Key Insights](#9-key-insights)
-10. [Recommendations](#10-recommendations)
-11. [Assumptions & Limitations](#11-assumptions--limitations)
-12. [Future Enhancements](#12-future-enhancements)
-13. [Deliverables](#13-deliverables)
-14. [Author](#14-author)
+7. [Analysis & Metrics](#8-analysis--metrics)
+8. [Key Insights](#9-key-insights)
+9. [Recommendations](#10-recommendations)
+10. [Assumptions & Limitations](#11-assumptions--limitations)
+11. [Future Enhancements](#12-future-enhancements)
+12. [Deliverables](#13-deliverables)
+13. [Author](#14-author)
 
 ---
 
@@ -146,30 +145,65 @@ What factors influence revenue generation?
 ## 4. Repository Structure
 
 ```
-[project-root]/
+customer-shopping-analysis/
 │
 ├── data/
-│   ├── raw/                  # Original, unmodified source data - never edited
-│   ├── processed/            # Cleaned and transformed data
-│   └── external/             # Reference data, lookup tables, third-party files
+│   ├── raw/                  
+│   │   └── customer_shopping_data.csv
+│   │        # Original unmodified transactional dataset
+│   │
+│   ├── processed/            
+│   │   └── cleaned_customer_data.xlsx
+│   │        # Cleaned and transformed dataset used for analysis
+│   │
+│   └── external/             
+│       └── reference_notes.xlsx
+│            # Optional lookup/reference files
 │
-├── notebooks/                # Jupyter, R Markdown, or Colab notebooks
+├── notebooks/                
+│   └── exploratory_analysis.ipynb
+│        # Optional notebook for exploratory analysis
 │
-├── scripts/                  # Reusable .py, .R, or .sh processing files
+├── scripts/                  
+│   └── excel_cleaning_steps.md
+│        # Documented reusable cleaning procedures
 │
-├── queries/                  # SQL files (retain this folder for SQL-heavy projects)
-│   ├── exploratory/          # Ad-hoc or investigative queries
-│   ├── transformations/      # Cleaning and reshaping logic
-│   └── final/                # Production-ready or presentation queries
+├── queries/                  
+│   ├── exploratory/          
+│   │   └── exploratory_metrics.sql
+│   │        # Exploratory SQL analysis queries
+│   │
+│   ├── transformations/      
+│   │   └── transformation_logic.sql
+│   │        # Data cleaning and reshaping logic
+│   │
+│   └── final/                
+│       └── final_business_queries.sql
+│            # Final presentation-ready queries
 │
-├── reports/                  # Final outputs: PDFs, slide decks, Word docs
+├── reports/                  
+│   ├── customer_shopping_report.docx
+│   ├── customer_shopping_report.pdf
+│   └── customer_shopping_presentation.pptx
+│        # Final project documentation and presentation
 │
-├── visuals/                  # Exported charts, dashboard screenshots, ERD diagrams
+├── visuals/                  
+│   ├── dashboard_screenshot.png
+│   ├── sales_by_category_chart.png
+│   └── payment_distribution_chart.png
+│        # Exported dashboard visuals and charts
 │
-├── docs/                     # Data dictionaries, schema notes, reference material
+├── docs/                     
+│   ├── data_dictionary.md
+│   ├── project_notes.md
+│   └── dashboard_design_notes.md
+│        # Supporting documentation and references
 │
-├── project_metadata.yml      # Machine-readable metadata (optional)
-└── README.md                 # You are here
+├── project_metadata.yml      
+│    # Optional project metadata/configuration file
+│
+└── README.md                 
+     # Main project documentation
 ```
 
 > ⚠️ *Delete folders you didn't use. An empty folder is worse than no folder.*
