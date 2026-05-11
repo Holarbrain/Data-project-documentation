@@ -58,13 +58,18 @@ The analysis focuses on identifying sales trends, customer preferences, and fact
   (Too vague. Could describe 10,000 projects. Describes none of them.)
 -->
 
-**Context:** [The business, research, or personal situation that motivated this project.]
+**Context:** Retail businesses generate large volumes of transactional data daily, but without proper analysis, valuable insights about customer behavior, sales performance, and purchasing trends can remain hidden. This project was developed to explore customer shopping patterns and transform raw sales data into meaningful business intelligence that supports data-driven decision-making.
 
-**Problem Statement:** [The specific question or challenge you were addressing.]
+**Problem Statement:** The primary challenge was to identify key trends, customer preferences, and performance drivers within the shopping dataset. The project aimed to answer questions such as:
 
-**Approach:** [In 1–2 sentences - how did you tackle it?]
+Which product categories perform best?
+What trends exist over time?
+Which customer segments contribute most to sales?
+What factors influence revenue generation?
 
-**Outcome:** [What did you produce or discover?]
+**Approach:** The project was completed using Microsoft Excel by following a structured data analysis workflow. The dataset was cleaned and standardized, analyzed using pivot tables and calculated metrics, and visualized through an interactive dashboard featuring KPIs, charts, and slicers.
+
+**Outcome:** The project produced a cleaned and analysis-ready dataset, an interactive Excel dashboard, business insights, and strategic recommendations. The analysis revealed sales trends, high-performing categories, customer purchasing behavior, and payment preferences that can help improve business strategy and decision-making.
 
 ---
 
