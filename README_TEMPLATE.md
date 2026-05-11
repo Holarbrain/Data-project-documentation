@@ -91,10 +91,10 @@ What factors influence revenue generation?
   (These can't fail - which means they can't succeed either.)
 -->
 
-- **Primary Objective:** [The main thing you set out to do]
-- **Secondary Objective 1:** [Supporting goal]
-- **Secondary Objective 2:** [Supporting goal]
-- **Secondary Objective 3:** [Remove if not applicable]
+- **Primary Objective:** To analyze customer shopping data in order to uncover sales trends, customer behavior patterns, and key business performance insights that support data-driven decision-making.
+- **Secondary Objective 1:** To clean and transform raw transactional data into a structured and analysis-ready dataset using Excel data cleaning techniques.
+- **Secondary Objective 2:** To develop an interactive dashboard that visualizes key metrics such as total sales, category performance, customer segments, and payment method distribution.
+- **Secondary Objective 3:** To generate actionable business insights and recommendations that can help improve marketing strategies, inventory management, and overall business performance.
 
 > 💡 *Every analysis decision in this project traces back to one of these objectives.*
 
