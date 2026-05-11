@@ -153,33 +153,12 @@ customer-shopping-analysis/
 │   │        # Original unmodified transactional dataset
 │   │
 │   ├── processed/            
-│   │   └── cleaned_customer_data.xlsx
-│   │        # Cleaned and transformed dataset used for analysis
-│   │
-│   └── external/             
-│       └── reference_notes.xlsx
-│            # Optional lookup/reference files
-│
-├── notebooks/                
-│   └── exploratory_analysis.ipynb
-│        # Optional notebook for exploratory analysis
+│      └── cleaned_customer_data.xlsx
+│        # Cleaned and transformed dataset used for analysis
 │
 ├── scripts/                  
 │   └── excel_cleaning_steps.md
 │        # Documented reusable cleaning procedures
-│
-├── queries/                  
-│   ├── exploratory/          
-│   │   └── exploratory_metrics.sql
-│   │        # Exploratory SQL analysis queries
-│   │
-│   ├── transformations/      
-│   │   └── transformation_logic.sql
-│   │        # Data cleaning and reshaping logic
-│   │
-│   └── final/                
-│       └── final_business_queries.sql
-│            # Final presentation-ready queries
 │
 ├── reports/                  
 │   ├── customer_shopping_report.docx
@@ -197,10 +176,7 @@ customer-shopping-analysis/
 │   ├── data_dictionary.md
 │   ├── project_notes.md
 │   └── dashboard_design_notes.md
-│        # Supporting documentation and references
-│
-├── project_metadata.yml      
-│    # Optional project metadata/configuration file
+│        # Supporting documentation and referencese
 │
 └── README.md                 
      # Main project documentation
@@ -236,22 +212,78 @@ customer-shopping-analysis/
 -->
 
 ```
-[Data Source(s)]
-      ↓
-[Ingestion / Collection Method]
-      ↓
-[Cleaning & Transformation]
-      ↓
-[Analysis / Modelling / Querying]
-      ↓
-[Output / Visualisation / Reporting]
+[Raw Data]
+   ↓
+[Data Cleaning]
+   ↓
+[Data Transformation]
+   ↓
+[Exploratory Analysis]
+   ↓
+[Dashboard Creation]
+   ↓
+[Insight Generation]
+   ↓
+[Business Recommendations]
 ```
 
-1. **Source:** [Where did the data come from? Format, size, access method.]
-2. **Ingestion:** [How was it brought in?]
-3. **Cleaning:** [What issues did you find and fix?]
-4. **Transformation:** [What new fields, aggregations, or structures did you create?]
-5. **Analysis:** [What methods - statistical, visual, query-based, model-based?]
+1. **Source:** The dataset used for this project consists of customer shopping transaction records stored in CSV/Excel format. The data contains information such as invoice number, customer demographics, product categories, quantity purchased, price, payment methods, shopping malls, and transaction dates.
+Format: CSV / Excel
+Data Type: Structured transactional data
+Size: Multi-row customer purchase dataset
+Access Method: Imported directly into Microsoft Excel for analysis
+2. **Ingestion:** The dataset was imported into Microsoft Excel using:
+Excel file import tools
+Power Query for structured loading and transformation
+The raw dataset was preserved in a separate worksheet to maintain data integrity.
+3. **Cleaning:** [Several data quality issues were identified and corrected during the cleaning process:
+Issues Fixed
+Removed duplicate transaction records
+Standardized inconsistent text formatting
+Example: “female” → “Female”
+Corrected capitalization inconsistencies
+Applied proper date formatting
+Verified and corrected data types
+Numbers
+Text
+Dates
+Removed unnecessary spaces and hidden characters using:
+TRIM()
+PROPER()
+CLEAN()
+Missing Values
+No significant missing values were identified in the dataset.]
+4. **Transformation:** [Additional transformations were performed to support analysis and dashboard development.
+New Fields Created:
+Total Sales
+            Total Sales = Quantity × Price
+Data Structuring:
+Organized data into analysis-ready tables
+Created summary tables using Pivot Tables
+Grouped data by:
+Category
+Gender
+Shopping Mall
+Payment Method
+Time Period]
+5. **Analysis:** [he dataset was analyzed using descriptive and visual analysis techniques.
+Analysis Methods
+Pivot Table Analysis
+Aggregations:
+SUM
+COUNT
+AVERAGE
+Trend Analysis
+Comparative Category Analysis
+Customer Segmentation
+Dashboard Visualization
+Visual Analysis
+
+The following visualizations were created:
+Bar Charts
+Line Charts
+Pie Charts
+KPI Cards]
 6. **Output:** [What form do the results take?]
 
 ---
