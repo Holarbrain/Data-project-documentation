@@ -133,13 +133,13 @@ What factors influence revenue generation?
 
 | Category | Tool(s) Used |
 |----------|-------------|
-| Data Storage | [e.g., PostgreSQL, CSV files, BigQuery, S3] |
-| Data Processing | [e.g., Python, R, SQL, Excel, dbt] |
-| Analysis | [e.g., pandas, dplyr, custom SQL queries] |
-| Visualization | [e.g., Matplotlib, Tableau, Power BI, Looker] |
-| Version Control | [e.g., Git / GitHub] |
-| Documentation | [e.g., Markdown, Notion] |
-| Other | [Any additional tools] |
+| Data Storage | CSV Files, Excel Workbook |
+| Data Processing | Microsoft Excel, Power Query |
+| Analysis | Pivot Tables, Excel Functions, Aggregations|
+| Visualization | Excel Charts, Dashboard, Slicers |
+| Version Control | Git / GitHub |
+| Documentation | Markdown (README.md), Microsoft Word |
+| Other | PowerPoint Presentation for project communication |
 
 ---
 
