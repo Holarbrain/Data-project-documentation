@@ -119,10 +119,10 @@ What factors influence revenue generation?
 
 | Dimension | Details |
 |-----------|---------|
-| **In Scope** | [What is included - data sources, time periods, segments] |
-| **Out of Scope** | [What you explicitly excluded - and a brief reason why] |
-| **Time Period** | [Date range of the data or the project itself] |
-| **Granularity** | [Unit of analysis - row-level, daily aggregates, per-user, etc.] |
+| **In Scope** | Customer transactional data analysis including sales trends, customer demographics, product category performance, payment methods, and shopping mall performance using Excel-based analysis and dashboarding. |
+| **Out of Scope** | Predictive modeling, machine learning, real-time data integration, and external market/economic analysis were excluded due to limited dataset scope and project requirements. |
+| **Time Period** | The dataset covers customer shopping transactions recorded within the available invoice date range provided in the dataset.
+| **Granularity** | Transaction-level analysis where each row represents an individual customer purchase/invoice record. |
 
 ### Tools & Technologies
 
