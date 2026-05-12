@@ -245,49 +245,49 @@ Total Sales
      Created summary tables using Pivot Tables
    
      Grouped data by:
-     Category
-     Gender
-     Shopping Mall
-     Payment Method
+     Category,
+     Gender,
+     Shopping Mall,
+     Payment Method, &
      Time Period
 
 6. **Analysis:** The dataset was analyzed using descriptive and visual analysis techniques.
  Analysis Methods
  Pivot Table Analysis
  Aggregations:
- SUM
- COUNT
- AVERAGE
- Trend Analysis
- Comparative Category Analysis
- Customer Segmentation
- Dashboard Visualization
+ SUM,
+ COUNT,
+ AVERAGE,
+ Trend Analysis,
+ Comparative Category Analysis,
+ Customer Segmentation,
+ Dashboard Visualization, &
  Visual Analysis
 
    The following visualizations were created:
-   Bar Charts
-   Line Charts
-   Pie Charts
+   Bar Charts,
+   Line Charts,
+   Pie Charts, &
    KPI Cards
 
 7. **Output:** The final outputs of the project include:
 
-Excel Deliverables:
-Raw_Data Sheet
-Clean_Data Sheet
-Analysis Sheet
-Interactive Dashboard
+   Excel Deliverables:
+   Raw_Data Sheet,
+   Clean_Data Sheet,
+   Analysis Sheet, &
+   Interactive Dashboard
 
-Documentation:
-Project Report (Word/PDF)
-GitHub README Documentation
+   Documentation:
+   Project Report (Word/PDF) &
+   GitHub README Documentation
 
-Presentation:
-PowerPoint Slide Deck
+   Presentation:
+   PowerPoint Slide Deck
 
-Business Outcomes
-The analysis provided actionable insights into:
-Sales performance, Customer behavior Category, profitability, Payment preferences & Location-based performance trends.
+   Business Outcomes
+   The analysis provided actionable insights into:
+   Sales performance, Customer behavior Category, profitability, Payment preferences & Location-based performance trends.
 
 ---
 
