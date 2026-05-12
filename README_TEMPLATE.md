@@ -169,28 +169,6 @@ customer-shopping-analysis/
 
 ## 5. Data Workflow
 
-<!--
-  Show how data moved through your project - from source to output.
-  Every transformation decision should be traceable here.
-
-  WHAT GOOD LOOKS LIKE:
-  1. Source: "Monthly CSV exports pulled from the internal POS system.
-              Five files, one per region, covering Jan 2023–Jun 2024."
-  2. Ingestion: "Loaded into Python using pandas. Files concatenated into
-                 a single dataframe (approx. 340,000 rows)."
-  3. Cleaning: "Removed 1.2% of rows with null transaction IDs.
-                Standardised date formats across regional files.
-                Resolved product category naming inconsistencies (3 variants → 1)."
-  4. Transformation: "Created a returns_rate field at product-category level.
-                      Aggregated to weekly and regional grain for trend analysis."
-  5. Analysis: "Descriptive statistics, regional comparison, return rate
-                segmentation by product category."
-  6. Output: "Summary report (PDF), annotated notebook, processed CSV."
-
-  WHAT TO AVOID:
-  ❌ "Data was cleaned and analysed." (No chain. No decisions. No trust.)
--->
-
 ```
 [Raw Data]
    ↓
@@ -226,16 +204,16 @@ d. Applied proper date formatting.
 e. Verified and corrected data types:
    Numbers,Text, & Dates.
 
-5. **Removed unnecessary spaces and hidden characters using:**
+4. **Removed unnecessary spaces and hidden characters using:**
 TRIM(), PROPER(), & CLEAN()
 
-Missing Values:
-No significant missing values were identified in the dataset.
+   Missing Values:
+   No significant missing values were identified in the dataset.
 
-6. **Transformation:** Additional transformations were performed to support analysis and dashboard development.\\
+5. **Transformation:** Additional transformations were performed to support analysis and dashboard development.\\
    
-New Fields Created:
-Total Sales
+   New Fields Created:
+   Total Sales:
             Total Sales = Quantity × Price
 
    Data Structuring:
@@ -245,7 +223,7 @@ Total Sales
    Grouped data by:
    Category, Gender, Shopping Mall, Payment Method, & Time Period.
 
-7. **Analysis:** The dataset was analyzed using descriptive and visual analysis techniques.
+6. **Analysis:** The dataset was analyzed using descriptive and visual analysis techniques.
    Analysis Methods:
    Pivot Table Analysis.
 
@@ -256,7 +234,7 @@ Total Sales
    The following visualizations were created:
    Bar Charts, Line Charts, Pie Charts, & KPI Cards.
 
-8. **Output:** The final outputs of the project include:
+7. **Output:** The final outputs of the project include:
 
    Excel Deliverables:
    Raw_Data Sheet, Clean_Data Sheet, Analysis Sheet, & Interactive Dashboard.
@@ -267,7 +245,7 @@ Total Sales
    Presentation:
    PowerPoint Slide Deck.
 
-   **Business Outcomes**
+8. **Business Outcomes**
    The analysis provided actionable insights into:
    Sales performance, Customer behavior Category, profitability, Payment preferences & Location-based performance trends.
 
