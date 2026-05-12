@@ -325,69 +325,52 @@ e. Which shopping locations perform best?
 
 ### Methods Used
 
-Descriptive Analysis
-Summary statistics
-Revenue aggregation
-Transaction counting
-Average calculations
-Trend Analysis
-Sales trend analysis across transaction dates
-Time-based performance comparison
+1. Descriptive Analysis
+2. Summary statistics
+3. Revenue aggregation
+4. Customer counting
+5. Average calculations
+6. Trend Analysis
+7. Time-based performance comparison
+8. Segmentation & Group Comparison
 
-Segmentation & Group Comparison
-Customer segmentation by:
-Gender
-Age group
-Shopping location
-Product category performance comparison
 
-Visual Analysis
-Bar charts for category comparison
-Line charts for sales trends
-Pie charts for payment method distribution
-KPI cards for business performance indicators
+**Customer segmentation by:**
+1. Gender
+2. Age group
+3. Shopping location
+4. Product category performance comparison
 
-Data Transformation & Aggregation
-Pivot Tables for summarization
+**Visual Analysis**
+1. Bar charts for category comparison
+2. Line charts for sales trends
+3. Pie charts for payment method distribution
+4. KPI cards for business performance indicators
+5. Data Transformation & Aggregation
+6. Pivot Tables for summarization
 
-Custom calculated field:
-Total Sales = Quantity × Price
-Dashboard Techniques
-Interactive slicers and filters
+**Custom calculated field:**
+1. Total Sales = Quantity × Price
+2 Dashboard Techniques
+3 Interactive slicers and filters
 
-KPI highlighting
-Conditional formatting for performance emphasis
+**KPI highlighting**
+  Conditional formatting for performance emphasis
 
-Excel Functions Used
-SUM()
-AVERAGE()
-COUNT()
-IF()
-IFERROR()
-TRIM()
-PROPER()
-CLEAN()
+**Excel Functions Used**
+1. SUM()
+2. AVERAGE()
+3. COUNT()
+4. IF()
+5. IFERROR()
+6. TRIM()
+7. PROPER()
+8. CLEAN()
+
 ---
 
 ## 8. Key Insights
 
-<!--
-  Findings + implications. Not just what happened - what it means.
-
-  WHAT GOOD LOOKS LIKE:
-  ✅ "Return rates, not sales volume, explain Region A's underperformance.
-      Region A's return rate on home goods was 34% - more than double the
-      company average. Revenue was not lost at the point of sale; it was
-      lost post-sale through refunds. This points to a fulfilment or
-      product quality issue specific to that region, not a demand problem."
-
-  WHAT TO AVOID:
-  ❌ "Region A had lower revenue than other regions in Q4."
-     (That's an observation. It describes what happened.
-      An insight says what it means and where to look next.)
-
-  Aim for 3–6 insights. Quality over quantity.
--->
 
 **Insight 1: [Short descriptive headline]**
 [What you found + what it suggests. One short paragraph.]
