@@ -240,35 +240,35 @@ New Fields Created:
 Total Sales
             Total Sales = Quantity × Price
 
-**Data Structuring:**
-Organized data into analysis-ready tables
-Created summary tables using Pivot Tables
-
-Grouped data by:
-Category
-Gender
-Shopping Mall
-Payment Method
-Time Period
+     Data Structuring:
+     Organized data into analysis-ready tables
+     Created summary tables using Pivot Tables
+   
+     Grouped data by:
+     Category
+     Gender
+     Shopping Mall
+     Payment Method
+     Time Period
 
 6. **Analysis:** The dataset was analyzed using descriptive and visual analysis techniques.
-Analysis Methods
-Pivot Table Analysis
-Aggregations:
-SUM
-COUNT
-AVERAGE
-Trend Analysis
-Comparative Category Analysis
-Customer Segmentation
-Dashboard Visualization
-Visual Analysis
+ Analysis Methods
+ Pivot Table Analysis
+ Aggregations:
+ SUM
+ COUNT
+ AVERAGE
+ Trend Analysis
+ Comparative Category Analysis
+ Customer Segmentation
+ Dashboard Visualization
+ Visual Analysis
 
-The following visualizations were created:
-Bar Charts
-Line Charts
-Pie Charts
-KPI Cards
+ The following visualizations were created:
+ Bar Charts
+ Line Charts
+ Pie Charts
+ KPI Cards
 
 7. **Output:** The final outputs of the project include:
 
