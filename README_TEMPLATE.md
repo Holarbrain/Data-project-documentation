@@ -264,11 +264,11 @@ Total Sales
  Dashboard Visualization
  Visual Analysis
 
- The following visualizations were created:
- Bar Charts
- Line Charts
- Pie Charts
- KPI Cards
+   The following visualizations were created:
+   Bar Charts
+   Line Charts
+   Pie Charts
+   KPI Cards
 
 7. **Output:** The final outputs of the project include:
 
