@@ -235,29 +235,28 @@ This project followed an exploratory and descriptive data analysis approach to u
 
 **The workflow included:**
 
-a. Cleaning and validating raw transactional data.
+1. Cleaning and validating raw transactional data.
 
-b. Exploring sales performance across categories, locations, and customer demographics.
+2. Exploring sales performance across categories, locations, and customer demographics.
 
-c. Comparing customer purchasing behavior across segments.
+3. Comparing customer purchasing behavior across segments.
 
-d. Visualizing KPIs and trends through an interactive dashboard.
+4. Visualizing KPIs and trends through an interactive dashboard.
 
-d. Generating actionable business insights and recommendations.
-
+5. Generating actionable business insights and recommendations.
 
 
 **The analysis was designed to answer business-focused questions such as:**
 
-a. Which product categories generate the most revenue?
+1. Which product categories generate the most revenue?
 
-b. Which customer segments contribute most to sales?
+2. Which customer segments contribute most to sales?
 
-c. Are there seasonal trends in purchasing behavior?
+3. Are there seasonal trends in purchasing behavior?
 
-d. Which payment methods are most preferred?
+4. Which payment methods are most preferred?
 
-e. Which shopping locations perform best?
+5. Which shopping locations perform best?
 
 ---
 
@@ -321,7 +320,6 @@ e. Which shopping locations perform best?
 
 ## 8. Key Insights
 
-
 **Insight 1: Clothing and Shoes Dominate Revenue Generation**
 The analysis revealed that the Clothing and Shoes categories generated the highest share of total sales compared to other product categories. This suggests that customers consistently spend more on fashion-related products, making these categories key revenue drivers for the business. The strong performance indicates an opportunity to prioritize inventory availability, promotions, and targeted marketing campaigns within these product segments.
 
@@ -333,7 +331,7 @@ Customer segmentation analysis showed that female customers accounted for a larg
 
 **Insight 4 (if applicable): Credit Card Payments Are the Preferred Transaction Method**
 The payment method analysis showed that credit cards were used more frequently than other payment options. This indicates that customers prefer convenient and flexible payment methods, especially for higher-value purchases. The trend suggests that businesses can improve customer experience and potentially increase sales by offering card-related incentives such as cashback offers, discounts, or loyalty rewards.
-
+ 
 
 ---
 
@@ -342,28 +340,18 @@ The payment method analysis showed that credit cards were used more frequently t
 
 | Priority | Recommendation | Based On | Suggested Owner |
 |----------|---------------|----------|-----------------|
-| High | [Specific, actionable step] | [Insight it comes from] | [Who should act] |
-| Medium | [Specific, actionable step] | [Insight it comes from] | [Who should act] |
-| Low | [Exploratory or longer-term suggestion] | [Insight it comes from] | [Who should act] |
+| High | Increase inventory levels and promotional campaigns for high-performing categories such as Clothing and Shoes. | Insight 1: Clothing and Shoes dominate revenue generation | Sales & Inventory Management Team |
+| High | Develop targeted marketing campaigns focused on female customers to improve engagement and customer retention. | Insight 3: Female customers contribute more to total sales | Marketing Team |
+| High | Plan seasonal marketing campaigns and inventory allocation ahead of peak shopping periods. | Insight 2: Customer purchasing behavior shows seasonal trends | Marketing & Operations Team |
+| Medium | Introduce incentives for card payments such as cashback offers, discounts, or loyalty rewards. | Insight 4: Credit card payments are the preferred method | Finance & Customer Experience Team |
+| Medium | Focus business expansion and promotional activities on top-performing shopping mall locations. | Location-based sales performance analysis | Business Development Team |
+| Medium | Implement bundle deals and quantity discounts to encourage higher-volume purchases. | Bulk purchase behavior identified during sales analysis | Sales Strategy Team |
+| Low| Conduct deeper customer segmentation analysis using additional demographic and behavioral data. | Customer behavior and segmentation findings | Data Analytics Team |
+| Low | Expand future analysis using Power BI or SQL-based reporting for advanced insights and automation. | Overall project analysis workflow | Data & Business Intelligence Team |
 
 ---
 
 ## 10. Assumptions & Limitations
-
-<!--
-  WHAT GOOD LOOKS LIKE:
-  Assumption: "Transaction records were assumed to be complete for all five regions.
-               No validation was performed against source system record counts."
-  Limitation: "The analysis cannot distinguish between returns initiated by
-               the customer vs. returns initiated by the business (e.g., recalls).
-               If business-initiated returns are concentrated in Region A, the
-               return rate finding may reflect a policy decision, not a quality issue."
-
-  WHAT TO AVOID:
-  ❌ Leaving this section blank or writing "None known."
-     Every project has limitations. Documenting them is a sign of
-     analytical maturity - not a confession of failure.
--->
 
 ### Assumptions
 - [What did you treat as true without being able to verify?]
