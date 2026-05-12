@@ -11,36 +11,18 @@ The analysis focuses on identifying sales trends, customer preferences, and fact
 4. [Repository Structure](#4-repository-structure)
 5. [Data Workflow](#5-data-workflow)
 6. [Data Model & Schema](#6-data-model--schema)
-7. [Analysis & Metrics](#8-analysis--metrics)
-8. [Key Insights](#9-key-insights)
-9. [Recommendations](#10-recommendations)
-10. [Assumptions & Limitations](#11-assumptions--limitations)
-11. [Future Enhancements](#12-future-enhancements)
-12. [Deliverables](#13-deliverables)
+7. [Analysis & Metrics](#7-analysis--metrics)
+8. [Key Insights](#8-key-insights)
+9. [Recommendations](#9-recommendations)
+10. [Assumptions & Limitations](#10-assumptions--limitations)
+11. [Future Enhancements](#11-future-enhancements)
+12. [Deliverables](#12-deliverables)
 13. [Author](#14-author)
 
 ---
 
 ## 1. Project Overview
 
-<!--
-  Write 3–5 sentences in plain language.
-  Cover: context → problem → approach → outcome.
-  Read it out loud. If it sounds like a form - rewrite it.
-
-  WHAT GOOD LOOKS LIKE:
-  "A mid-size retail business was seeing inconsistent revenue across
-  its regional stores but couldn't identify the root cause. This project
-  explored 18 months of transaction data across five regions to determine
-  whether underperformance was driven by sales volume, pricing, or return
-  rates. The analysis revealed that one region's gap was almost entirely
-  explained by an unusually high return rate on a single product category -
-  a finding invisible in the company's top-level reporting."
-
-  WHAT TO AVOID:
-  "This project analyzes sales data to find trends and insights."
-  (Too vague. Could describe 10,000 projects. Describes none of them.)
--->
 
 **Context:** Retail businesses generate large volumes of transactional data daily, but without proper analysis, valuable insights about customer behavior, sales performance, and purchasing trends can remain hidden. This project was developed to explore customer shopping patterns and transform raw sales data into meaningful business intelligence that supports data-driven decision-making.
 
@@ -59,21 +41,6 @@ What factors influence revenue generation?
 
 ## 2. Objectives
 
-<!--
-  Write objectives that are specific enough to succeed or fail.
-  Use action-oriented verbs: Identify, Determine, Quantify, Build, Evaluate.
-
-  WHAT GOOD LOOKS LIKE:
-  ✅ "Determine whether customer churn rate correlates with support ticket volume."
-  ✅ "Identify the top three revenue-driving product categories across all regions."
-  ✅ "Build a reproducible pipeline that ingests and cleans daily sales exports."
-
-  WHAT TO AVOID:
-  ❌ "Explore the data."
-  ❌ "Gain insights."
-  ❌ "Understand trends."
-  (These can't fail - which means they can't succeed either.)
--->
 
 - **Primary Objective:** To analyze customer shopping data in order to uncover sales trends, customer behavior patterns, and key business performance insights that support data-driven decision-making.
 - **Secondary Objective 1:** To clean and transform raw transactional data into a structured and analysis-ready dataset using Excel data cleaning techniques.
@@ -88,19 +55,6 @@ What factors influence revenue generation?
 
 ### Scope
 
-<!--
-  WHAT GOOD LOOKS LIKE:
-  In Scope: "Transaction-level data for Regions A–E, Jan 2023–Jun 2024.
-             Analysis covers revenue, return rates, and product category performance."
-  Out of Scope: "Customer demographics and marketing spend data were excluded -
-                 demographic data was incomplete for two regions, and marketing
-                 data sits in a separate system outside this engagement."
-
-  WHAT TO AVOID:
-  ❌ Leaving Out of Scope blank. This is the section that protects your credibility.
-     If you don't define the fence, reviewers assume you missed things.
--->
-
 | Dimension | Details |
 |-----------|---------|
 | **In Scope** | Customer transactional data analysis including sales trends, customer demographics, product category performance, payment methods, and shopping mall performance using Excel-based analysis and dashboarding. |
@@ -110,10 +64,6 @@ What factors influence revenue generation?
 
 ### Tools & Technologies
 
-<!--
-  List only what you actually used on this project.
-  This is not your skills section - it's the project's technical context.
--->
 
 | Category | Tool(s) Used |
 |----------|-------------|
@@ -283,7 +233,7 @@ TRIM(), PROPER(), & CLEAN()
 
 This project followed an exploratory and descriptive data analysis approach to understand customer shopping behavior and sales performance. The analysis focused on identifying patterns, trends, and relationships within the transactional dataset rather than testing a formal statistical hypothesis.
 
-The workflow included:
+**The workflow included:**
 
 a. Cleaning and validating raw transactional data.
 
@@ -296,7 +246,8 @@ d. Visualizing KPIs and trends through an interactive dashboard.
 d. Generating actionable business insights and recommendations.
 
 
-The analysis was designed to answer business-focused questions such as:
+
+**The analysis was designed to answer business-focused questions such as:**
 
 a. Which product categories generate the most revenue?
 
@@ -333,7 +284,6 @@ e. Which shopping locations perform best?
 6. Trend Analysis
 7. Time-based performance comparison
 8. Segmentation & Group Comparison
-
 
 **Customer segmentation by:**
 1. Gender
@@ -372,40 +322,23 @@ e. Which shopping locations perform best?
 ## 8. Key Insights
 
 
-**Insight 1: [Short descriptive headline]**
-[What you found + what it suggests. One short paragraph.]
+**Insight 1: Clothing and Shoes Dominate Revenue Generation**
+The analysis revealed that the Clothing and Shoes categories generated the highest share of total sales compared to other product categories. This suggests that customers consistently spend more on fashion-related products, making these categories key revenue drivers for the business. The strong performance indicates an opportunity to prioritize inventory availability, promotions, and targeted marketing campaigns within these product segments.
 
-**Insight 2: [Short descriptive headline]**
-[What you found + what it suggests.]
+**Insight 2: Customer Purchasing Behavior Shows Seasonal Trends**
+Sales performance fluctuated across different transaction periods, with noticeable increases during certain months. This pattern suggests the presence of seasonal buying behavior, likely influenced by holidays, promotional periods, or consumer shopping cycles. Understanding these trends can help businesses better plan marketing campaigns, staffing, and inventory management during peak demand periods.
 
-**Insight 3: [Short descriptive headline]**
-[What you found + what it suggests.]
+**Insight 3: Female Customers Contribute More to Total Sales**
+Customer segmentation analysis showed that female customers accounted for a larger proportion of transactions and overall revenue. This suggests that female shoppers are either purchasing more frequently or spending more per transaction across multiple product categories. The finding highlights the importance of designing personalized campaigns and product offerings tailored toward this customer segment.
 
-**Insight 4 (if applicable): [Short descriptive headline]**
-[What you found + what it suggests.]
+**Insight 4 (if applicable): Credit Card Payments Are the Preferred Transaction Method**
+The payment method analysis showed that credit cards were used more frequently than other payment options. This indicates that customers prefer convenient and flexible payment methods, especially for higher-value purchases. The trend suggests that businesses can improve customer experience and potentially increase sales by offering card-related incentives such as cashback offers, discounts, or loyalty rewards.
+
 
 ---
 
 ## 9. Recommendations
 
-<!--
-  Action-oriented. Addressed to a real audience.
-  Tied explicitly to the insight that supports each one.
-
-  WHAT GOOD LOOKS LIKE:
-  Priority: High
-  Recommendation: "Conduct a fulfilment audit for home goods deliveries
-                   in Region A - specifically investigating whether returns
-                   correlate with a particular warehouse, carrier, or SKU batch."
-  Based On: Insight 1 - return rate anomaly in Region A
-  Owner: Operations / Supply Chain team
-
-  WHAT TO AVOID:
-  ❌ "Improve the return rate."
-     (Not actionable. Doesn't say who, how, or where to start.)
-  ❌ "Further analysis is needed."
-     (This is a placeholder, not a recommendation.)
--->
 
 | Priority | Recommendation | Based On | Suggested Owner |
 |----------|---------------|----------|-----------------|
