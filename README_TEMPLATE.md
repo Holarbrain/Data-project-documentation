@@ -209,29 +209,29 @@ customer-shopping-analysis/
 
 1. **Source:** The dataset used for this project consists of customer shopping transaction records stored in CSV/Excel format. The data contains information such as invoice number, customer demographics, product categories, quantity purchased, price, payment methods, shopping malls, and transaction dates.
 Format: CSV / Excel
-Data Type: Structured transactional data
-Size: Multi-row customer purchase dataset
-Access Method: Imported directly into Microsoft Excel for analysis
+Data Type: Structured transactional data.
+Size: Multi-row customer purchase dataset.
+Access Method: Imported directly into Microsoft Excel for analysis.
 2. **Ingestion:** The dataset was imported into Microsoft Excel using:
-Excel file import tools
-Power Query for structured loading and transformation
+Excel file import tools.
+Power Query for structured loading and transformation.
 The raw dataset was preserved in a separate worksheet to maintain data integrity.
 3. **Cleaning:** Several data quality issues were identified and corrected during the cleaning process:
 Issues Fixed:
-Removed duplicate transaction records
-Standardized inconsistent text formatting
+Removed duplicate transaction records.
+Standardized inconsistent text formatting.
 Example: “female” → “Female”
-Corrected capitalization inconsistencies
-Applied proper date formatting
+Corrected capitalization inconsistencies.
+Applied proper date formatting.
 Verified and corrected data types:
-Numbers
-Text
-Dates
+Numbers,
+Text, &
+Dates.
 
 4. **Removed unnecessary spaces and hidden characters using:**
-TRIM()
-PROPER()
-CLEAN()
+TRIM(),
+PROPER(),
+CLEAN(), &
 Missing Values
 No significant missing values were identified in the dataset.
 
@@ -241,34 +241,34 @@ Total Sales
             Total Sales = Quantity × Price
 
      Data Structuring:
-     Organized data into analysis-ready tables
-     Created summary tables using Pivot Tables
+     Organized data into analysis-ready tables.
+     Created summary tables using Pivot Tables.
    
      Grouped data by:
      Category,
      Gender,
      Shopping Mall,
      Payment Method, &
-     Time Period
+     Time Period.
 
 6. **Analysis:** The dataset was analyzed using descriptive and visual analysis techniques.
- Analysis Methods
- Pivot Table Analysis
- Aggregations:
- SUM,
- COUNT,
- AVERAGE,
- Trend Analysis,
- Comparative Category Analysis,
- Customer Segmentation,
- Dashboard Visualization, &
- Visual Analysis
+   Analysis Methods.
+   Pivot Table Analysis.
+   Aggregations:
+   SUM,
+   COUNT,
+   AVERAGE,
+   Trend Analysis,
+   Comparative Category Analysis,
+   Customer Segmentation,
+   Dashboard Visualization, &
+   Visual Analysis.
 
    The following visualizations were created:
    Bar Charts,
    Line Charts,
    Pie Charts, &
-   KPI Cards
+   KPI Cards.
 
 7. **Output:** The final outputs of the project include:
 
@@ -276,43 +276,22 @@ Total Sales
    Raw_Data Sheet,
    Clean_Data Sheet,
    Analysis Sheet, &
-   Interactive Dashboard
+   Interactive Dashboard.
 
    Documentation:
    Project Report (Word/PDF) &
-   GitHub README Documentation
+   GitHub README Documentation.
 
    Presentation:
-   PowerPoint Slide Deck
+   PowerPoint Slide Deck.
 
-   Business Outcomes
+   **Business Outcomes**
    The analysis provided actionable insights into:
    Sales performance, Customer behavior Category, profitability, Payment preferences & Location-based performance trends.
 
 ---
 
 ## 6. Data Model & Schema
-
-<!--
-  Define your fields so that someone reading your analysis can follow along
-  without digging through your code.
-
-  WHAT GOOD LOOKS LIKE (one row example):
-  | transaction_id | string | Unique identifier per sales transaction | TXN-00482 |
-  | return_flag    | boolean | Whether the transaction included a return | TRUE |
-  | region_code    | string | Two-letter identifier for store region | "NE" |
-
-  WHAT TO AVOID:
-  ❌ Skipping this section because "the field names are self-explanatory."
-     They're not. Not to a reviewer. Not to you in six months.
-
-  📌 FOR SQL PROJECTS: If you have multiple tables, create one block per table.
-     Describe join keys and relationships here. Your ERD (Section 7) will
-     visualise what this section describes in text.
-
-  📌 FOR NON-SQL PROJECTS: Describe the shape of your dataset informally
-     if a formal schema doesn't apply. Even one paragraph is more helpful than nothing.
--->
 
 ### Dataset / Table: `[name]`
 
@@ -332,31 +311,14 @@ Total Sales
 | `invoice_month` | string | Month the transaction occurred (Extracted from Invoice_date) | January |
 | `age_group` |  int | Age group of the customer (Ranging from 18 - 69, with interval of 10. Calaculated from age.) | 18-27 |
 | `total_sales` | float | Calculated total transaction value (quantity × price) | 4501.50 |
-> **Row count (approx.):** ~99,000+ rows
-> **Date range:** Based on available invoice transaction dates in the dataset
-> **Primary Key:** invoice_no
+> **Row count (approx.):** ~99,000+ rows.
+> **Date range:** Based on available invoice transaction dates in the dataset.
+> **Primary Key:** invoice_no.
 > **Calculated Field:** total_sales = quantity × price
 
 ---
 
 ## 7. Analysis & Metrics
-
-<!--
-  Explain what you measured and how - before you share what you found.
-
-  WHAT GOOD LOOKS LIKE:
-  Metric: "Customer Return Rate"
-  Definition: "Number of transactions flagged as returns divided by total
-               transactions, calculated at product-category and regional grain."
-  Why It Matters: "Return rate - not sales volume - was hypothesised to
-                  explain regional revenue gaps. This metric tests that hypothesis."
-
-  WHAT TO AVOID:
-  ❌ Defining a metric only in code: SUM(returns) / COUNT(transaction_id)
-     That's an implementation. Write the plain-language definition here.
-     Both belong in your project - the definition in the README,
-     the implementation in the code.
--->
 
 ### Analytical Approach
 
@@ -371,7 +333,6 @@ Visualizing KPIs and trends through an interactive dashboard
 Generating actionable business insights and recommendations
 
 The analysis was designed to answer business-focused questions such as:
-
 Which product categories generate the most revenue?
 Which customer segments contribute most to sales?
 Are there seasonal trends in purchasing behavior?
