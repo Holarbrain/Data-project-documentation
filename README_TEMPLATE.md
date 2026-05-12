@@ -245,7 +245,7 @@ TRIM(), PROPER(), & CLEAN()
    Presentation:
    PowerPoint Slide Deck.
 
-8. **Business Outcomes**
+8. **Business Outcomes:**
    The analysis provided actionable insights into:
    Sales performance, Customer behavior Category, profitability, Payment preferences & Location-based performance trends.
 
@@ -284,10 +284,15 @@ TRIM(), PROPER(), & CLEAN()
 This project followed an exploratory and descriptive data analysis approach to understand customer shopping behavior and sales performance. The analysis focused on identifying patterns, trends, and relationships within the transactional dataset rather than testing a formal statistical hypothesis.
 
 The workflow included:
+
 a. Cleaning and validating raw transactional data.
+
 b. Exploring sales performance across categories, locations, and customer demographics.
+
 c. Comparing customer purchasing behavior across segments.
+
 d. Visualizing KPIs and trends through an interactive dashboard.
+
 d. Generating actionable business insights and recommendations.
 
 The analysis was designed to answer business-focused questions such as:
