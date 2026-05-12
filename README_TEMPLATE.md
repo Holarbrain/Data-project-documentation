@@ -295,12 +295,20 @@ d. Visualizing KPIs and trends through an interactive dashboard.
 
 d. Generating actionable business insights and recommendations.
 
+
 The analysis was designed to answer business-focused questions such as:
+
 a. Which product categories generate the most revenue?
+
 b. Which customer segments contribute most to sales?
+
 c. Are there seasonal trends in purchasing behavior?
+
 d. Which payment methods are most preferred?
+
 e. Which shopping locations perform best?
+
+---
 
 ### Key Metrics Defined
 
