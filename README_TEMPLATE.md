@@ -1,4 +1,4 @@
-# 📊 CUSTOMER SHOPPING DATA ANALYSIS REPORT
+ # 📊 CUSTOMER SHOPPING DATA ANALYSIS REPORT
 > This project presents an analysis of customer shopping behavior based on transactional data. The objective is to clean, analyze, and visualize the dataset to uncover meaningful insights that can support business decision-making.
 The analysis focuses on identifying sales trends, customer preferences, and factors influencing revenue generation.
 ***
@@ -284,8 +284,29 @@ Bar Charts
 Line Charts
 Pie Charts
 KPI Cards]
-6. **Output:** [What form do the results take?]
+6. **Output:** The final outputs of the project include:
 
+Excel Deliverables:
+Raw_Data Sheet
+Clean_Data Sheet
+Analysis Sheet
+Interactive Dashboard
+
+Documentation:
+Project Report (Word/PDF)
+GitHub README Documentation
+
+Presentation:
+PowerPoint Slide Deck
+
+Business Outcomes
+The analysis provided actionable insights into:
+
+Sales performance
+Customer behavior
+Category profitability
+Payment preferences
+Location-based performance trends
 ---
 
 ## 6. Data Model & Schema
@@ -315,10 +336,20 @@ KPI Cards]
 
 | Field Name | Data Type | Description | Example Value |
 |------------|-----------|-------------|---------------|
-| `[field_1]` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
-| `[field_2]` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
-| `[field_3]` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
-
+| `invoice_no` | string  | Unique identifier for each transaction/invoice | I138884 |
+| `customer_id` | string  | Unique identifier assigned to each customer | C241288 |
+| `gender` | string  | Gender of the customer | Female|
+| `age` |  int  | Customer age | 28 |
+| `category` | string | Product category purchased by the customer | Clothing |
+| `quantity` |  int  | Number of units purchased in a transaction | 3 |
+| `price` |  float | Unit price of the product purchased | 1500.50 |
+| `payment_method` | string | Payment option used for the transaction | Credit Card |
+| `shopping_mall` | string / int / date / float / boolean] | Shopping mall/location where purchase occurred | Mall of Istanbul |
+| `invoice_date` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
+| `invoice_year` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
+| `invoice_month` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
+| `age_group` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
+| `total_sales` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
 > **Row count (approx.):** [X rows]
 > **Date range:** [Start] – [End]
 > **Key join / relationship:** [e.g., `orders.customer_id` → `customers.id`]
