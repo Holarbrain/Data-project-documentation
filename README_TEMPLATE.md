@@ -236,14 +236,14 @@ Access Method: Imported directly into Microsoft Excel for analysis
 Excel file import tools
 Power Query for structured loading and transformation
 The raw dataset was preserved in a separate worksheet to maintain data integrity.
-3. **Cleaning:** [Several data quality issues were identified and corrected during the cleaning process:
-Issues Fixed
+3. **Cleaning:** Several data quality issues were identified and corrected during the cleaning process:
+Issues Fixed:
 Removed duplicate transaction records
 Standardized inconsistent text formatting
 Example: “female” → “Female”
 Corrected capitalization inconsistencies
 Applied proper date formatting
-Verified and corrected data types
+Verified and corrected data types:
 Numbers
 Text
 Dates
@@ -252,21 +252,25 @@ TRIM()
 PROPER()
 CLEAN()
 Missing Values
-No significant missing values were identified in the dataset.]
-4. **Transformation:** [Additional transformations were performed to support analysis and dashboard development.
+
+No significant missing values were identified in the dataset.
+5. **Transformation:** Additional transformations were performed to support analysis and dashboard development.
 New Fields Created:
 Total Sales
             Total Sales = Quantity × Price
+            
 Data Structuring:
 Organized data into analysis-ready tables
 Created summary tables using Pivot Tables
+
 Grouped data by:
 Category
 Gender
 Shopping Mall
 Payment Method
-Time Period]
-5. **Analysis:** [he dataset was analyzed using descriptive and visual analysis techniques.
+Time Period
+
+6. **Analysis:** The dataset was analyzed using descriptive and visual analysis techniques.
 Analysis Methods
 Pivot Table Analysis
 Aggregations:
@@ -344,17 +348,16 @@ Location-based performance trends
 | `quantity` |  int  | Number of units purchased in a transaction | 3 |
 | `price` |  float | Unit price of the product purchased | 1500.50 |
 | `payment_method` | string | Payment option used for the transaction | Credit Card |
-| `shopping_mall` | string / int / date / float / boolean] | Shopping mall/location where purchase occurred | Mall of Istanbul |
-| `invoice_date` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
-| `invoice_year` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
-| `invoice_month` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
-| `age_group` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
-| `total_sales` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
-> **Row count (approx.):** [X rows]
-> **Date range:** [Start] – [End]
-> **Key join / relationship:** [e.g., `orders.customer_id` → `customers.id`]
-
-*Add additional table blocks as needed for multi-table projects.*
+| `shopping_mall` | string | Shopping mall/location where purchase occurred | Mall of Istanbul |
+| `invoice_date` | date | Date the transaction occurred | 2023-03-15 |
+| `invoice_year` |  int | Year the transaction occurred(Extracted from invoice_date) | 2023 |
+| `invoice_month` | string | Month the transaction occurred (Extracted from Invoice_date) | January |
+| `age_group` |  int | Age group of the customer (Ranging from 18 - 69, with interval of 10. Calaculated from age.) | 18-27 |
+| `total_sales` | float | Calculated total transaction value (quantity × price) | 4501.50 |
+> **Row count (approx.):** ~99,000+ rows
+> **Date range:** Based on available invoice transaction dates in the dataset
+> **Primary Key:** invoice_no
+> **Calculated Field:** total_sales = quantity × price
 
 ---
 
