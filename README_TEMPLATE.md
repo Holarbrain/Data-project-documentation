@@ -287,12 +287,8 @@ PowerPoint Slide Deck
 
 Business Outcomes
 The analysis provided actionable insights into:
+Sales performance, Customer behavior Category, profitability, Payment preferences & Location-based performance trends.
 
-Sales performance
-Customer behavior
-Category profitability
-Payment preferences
-Location-based performance trends
 ---
 
 ## 6. Data Model & Schema
