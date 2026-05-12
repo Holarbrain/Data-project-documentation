@@ -218,69 +218,51 @@ Power Query for structured loading and transformation.
 The raw dataset was preserved in a separate worksheet to maintain data integrity.
 3. **Cleaning:** Several data quality issues were identified and corrected during the cleaning process:
 Issues Fixed:
-Removed duplicate transaction records.
-Standardized inconsistent text formatting.
-Example: “female” → “Female”
-Corrected capitalization inconsistencies.
-Applied proper date formatting.
-Verified and corrected data types:
-Numbers,
-Text, &
-Dates.
+a. Removed duplicate transaction records.
+b. Standardized inconsistent text formatting.
+   Example: “female” → “Female”
+c. Corrected capitalization inconsistencies.
+d. Applied proper date formatting.
+e. Verified and corrected data types:
+   Numbers,Text, & Dates.
 
-4. **Removed unnecessary spaces and hidden characters using:**
-TRIM(),
-PROPER(),
-CLEAN(), &
-Missing Values
+5. **Removed unnecessary spaces and hidden characters using:**
+TRIM(), PROPER(), & CLEAN()
+
+Missing Values:
 No significant missing values were identified in the dataset.
 
-5. **Transformation:** Additional transformations were performed to support analysis and dashboard development.
+6. **Transformation:** Additional transformations were performed to support analysis and dashboard development.\\
+   
 New Fields Created:
 Total Sales
             Total Sales = Quantity × Price
 
-     Data Structuring:
-     Organized data into analysis-ready tables.
-     Created summary tables using Pivot Tables.
+   Data Structuring:
+   Organized data into analysis-ready tables.
+   Created summary tables using Pivot Tables.
    
-     Grouped data by:
-     Category,
-     Gender,
-     Shopping Mall,
-     Payment Method, &
-     Time Period.
+   Grouped data by:
+   Category, Gender, Shopping Mall, Payment Method, & Time Period.
 
-6. **Analysis:** The dataset was analyzed using descriptive and visual analysis techniques.
-   Analysis Methods.
+7. **Analysis:** The dataset was analyzed using descriptive and visual analysis techniques.
+   Analysis Methods:
    Pivot Table Analysis.
+
    Aggregations:
-   SUM,
-   COUNT,
-   AVERAGE,
-   Trend Analysis,
-   Comparative Category Analysis,
-   Customer Segmentation,
-   Dashboard Visualization, &
-   Visual Analysis.
+   SUM, COUNT,
+   AVERAGE, Trend Analysis, Comparative Category Analysis, Customer Segmentation, Dashboard Visualization, & Visual Analysis.
 
    The following visualizations were created:
-   Bar Charts,
-   Line Charts,
-   Pie Charts, &
-   KPI Cards.
+   Bar Charts, Line Charts, Pie Charts, & KPI Cards.
 
-7. **Output:** The final outputs of the project include:
+8. **Output:** The final outputs of the project include:
 
    Excel Deliverables:
-   Raw_Data Sheet,
-   Clean_Data Sheet,
-   Analysis Sheet, &
-   Interactive Dashboard.
+   Raw_Data Sheet, Clean_Data Sheet, Analysis Sheet, & Interactive Dashboard.
 
    Documentation:
-   Project Report (Word/PDF) &
-   GitHub README Documentation.
+   Project Report (Word/PDF) & GitHub README Documentation.
 
    Presentation:
    PowerPoint Slide Deck.
@@ -293,8 +275,7 @@ Total Sales
 
 ## 6. Data Model & Schema
 
-### Dataset / Table: `[name]`
-
+### Dataset / Table: `Customer_shopping_data`
 | Field Name | Data Type | Description | Example Value |
 |------------|-----------|-------------|---------------|
 | `invoice_no` | string  | Unique identifier for each transaction/invoice | I138884 |
@@ -325,19 +306,18 @@ Total Sales
 This project followed an exploratory and descriptive data analysis approach to understand customer shopping behavior and sales performance. The analysis focused on identifying patterns, trends, and relationships within the transactional dataset rather than testing a formal statistical hypothesis.
 
 The workflow included:
-
-Cleaning and validating raw transactional data
-Exploring sales performance across categories, locations, and customer demographics
-Comparing customer purchasing behavior across segments
-Visualizing KPIs and trends through an interactive dashboard
-Generating actionable business insights and recommendations
+a. Cleaning and validating raw transactional data.
+b. Exploring sales performance across categories, locations, and customer demographics.
+c. Comparing customer purchasing behavior across segments.
+d. Visualizing KPIs and trends through an interactive dashboard.
+d. Generating actionable business insights and recommendations.
 
 The analysis was designed to answer business-focused questions such as:
-Which product categories generate the most revenue?
-Which customer segments contribute most to sales?
-Are there seasonal trends in purchasing behavior?
-Which payment methods are most preferred?
-Which shopping locations perform best?
+a. Which product categories generate the most revenue?
+b. Which customer segments contribute most to sales?
+c. Are there seasonal trends in purchasing behavior?
+d. Which payment methods are most preferred?
+e. Which shopping locations perform best?
 
 ### Key Metrics Defined
 
