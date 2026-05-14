@@ -440,23 +440,14 @@ The project relied on the provided dataset without independent auditing or verif
 
 ## 11. Future Enhancements
 
-<!--
-  WHAT GOOD LOOKS LIKE:
-  ✅ "Automate the monthly data pull from the POS export folder using
-      a scheduled Python script, replacing the current manual process."
-  ✅ "Expand the return rate analysis to include carrier-level data,
-      which was unavailable in this dataset but exists in the logistics system."
-
-  WHAT TO AVOID:
-  ❌ "Add a machine learning model."
-     (Vague, and disconnected from the actual findings of this project.)
-  ❌ Listing aspirational features that don't follow logically from the work.
--->
-
-- [ ] [Enhancement 1 - specific and traceable to a real gap in this project]
-- [ ] [Enhancement 2]
-- [ ] [Enhancement 3]
-- [ ] [Enhancement 4]
+- [ ] **Enhancement 1 — Implement Advanced Business Intelligence Tools**
+      Future versions of this project could migrate the dashboard from Excel to Power BI or Tableau to support more advanced interactivity, automated refresh processes, and scalable visual analytics. This would address Excel’s limitations in handling larger datasets and real-time reporting.
+- [ ] **Enhancement 2 — Add Predictive Sales Forecasting**
+      The current project focuses on descriptive analysis only. A future enhancement could include predictive modeling techniques such as sales forecasting to estimate future revenue trends and support strategic planning during peak shopping periods.
+- [ ] **Enhancement 3 — Expand Customer Segmentation Analysis**
+      The dataset currently contains limited customer demographic information. Future analysis could integrate additional customer attributes such as location,   loyalty status, income level, or shopping frequency to enable deeper behavioral segmentation and personalized marketing insights.
+- [ ] **Enhancement 4 — Automate the Data Pipeline**
+The data cleaning and transformation process was performed manually using Excel and Power Query. Future improvements could automate the workflow using SQL, Python, or cloud-based ETL tools to improve efficiency, reproducibility, and scalability for larger datasets.
 
 ---
 
@@ -472,7 +463,7 @@ The project relied on the provided dataset without independent auditing or verif
 
 ## 13. Author
 
-**[Your Name]**
+**Ismail Olamide Abdulrazaq**
 [Your role or title - current or target]
 
 - 🔗 [LinkedIn URL]
