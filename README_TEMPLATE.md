@@ -354,15 +354,85 @@ The payment method analysis showed that credit cards were used more frequently t
 ## 10. Assumptions & Limitations
 
 ### Assumptions
-- [What did you treat as true without being able to verify?]
-- [What simplifications did you make for scope or feasibility?]
-- [What domain rules or definitions did you accept as given?]
+
+-**Data Accuracy Assumption**
+The analysis assumes that the transactional records provided in the dataset are accurate, complete, and correctly recorded at the point of collection. Invoice numbers were treated as unique transaction identifiers without independent verification.
+The analysis assumes that the transactional records provided in the dataset are accurate, complete, and correctly recorded at the point of collection. Invoice numbers were treated as unique transaction identifiers without independent verification.
+
+- **Consistent Business Definitions**
+It was assumed that:
+
+Product categories were correctly assigned
+
+Payment methods were consistently recorded
+
+Shopping mall names accurately represented transaction locations.
+
+These business definitions were accepted as provided in the dataset.
+
+- **Customer Identification Assumption**
+Customer IDs were assumed to uniquely represent individual customers, even though additional customer profile information was not available for validation.
+
+- **Time-Based Assumption**
+The transaction dates in the dataset were assumed to reflect the actual purchase dates and were treated as reliable for trend analysis and time-based insights.
+
+- **Scope Simplification**
+To maintain project feasibility and align with the project scope:
+
+External market factors were excluded
+
+Economic conditions and competitor activity were not analyzed
+
+Advanced predictive modeling and machine learning were not included
+
+The project focused primarily on descriptive and exploratory analysis using Excel-based tools.
 
 ### Limitations
-- [What gaps exist in the data?]
-- [What analysis was out of scope but could affect interpretation?]
-- [What would a more rigorous version of this project include?]
-- [Are there known biases in the data source or collection method?]
+
+- **Limited Customer Demographics**
+
+The dataset contains only basic demographic information (such as age and gender). Additional attributes like income level, customer loyalty status, geographic region, or occupation were unavailable, limiting deeper customer segmentation analysis.
+
+-**Lack of External Context**
+The analysis does not include external variables such as:
+
+Seasonal events
+
+Economic trends
+
+Marketing campaign data
+
+Competitor activity
+
+These factors may influence customer purchasing behavior and sales performance.
+  
+- **Exploratory Rather Than Predictive Analysis**
+The project focused on descriptive and exploratory analysis rather than predictive analytics. A more advanced version of the project could include:
+
+Sales forecasting
+
+Customer churn prediction
+
+Market basket analysis
+
+Recommendation systems
+
+- **Tooling Constraints**
+The analysis and dashboard were developed primarily in Microsoft Excel. While effective for exploratory analysis and reporting, Excel has limitations for:
+
+Large-scale data processing
+
+Automation
+
+Real-time analytics
+
+Advanced statistical modeling
+
+- **Potential Data Collection Bias**
+The dataset reflects only recorded transactions available in the source file. If certain transactions, customer groups, or shopping periods were underrepresented or excluded during data collection, the analysis results may not fully represent actual business performance.
+
+- **Limited Validation of Source Data**
+The project relied on the provided dataset without independent auditing or verification of source systems. Any inaccuracies in the original data source may affect the reliability of insights and conclusions.
 
 > *The goal here is pre-emptive Q&A. What would a thoughtful skeptic push back on? Document the answer here, before they ask.*
 
