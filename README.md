@@ -107,12 +107,6 @@ customer-shopping-analysis/
 │   └── payment_distribution_chart.png
 │        # Exported dashboard visuals and charts
 │
-├── docs/                     
-│   ├── data_dictionary.md
-│   ├── project_notes.md
-│   └── dashboard_design_notes.md
-│        # Supporting documentation and referencese
-│
 └── README.md                 
      # Main project documentation
 ```
