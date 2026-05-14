@@ -360,79 +360,79 @@ The analysis assumes that the transactional records provided in the dataset are 
 The analysis assumes that the transactional records provided in the dataset are accurate, complete, and correctly recorded at the point of collection. Invoice numbers were treated as unique transaction identifiers without independent verification.
 
 - **Consistent Business Definitions**
-It was assumed that:
-
-Product categories were correctly assigned
-
-Payment methods were consistently recorded
-
-Shopping mall names accurately represented transaction locations.
-
-These business definitions were accepted as provided in the dataset.
+    It was assumed that:
+    
+    Product categories were correctly assigned
+    
+    Payment methods were consistently recorded
+    
+    Shopping mall names accurately represented transaction locations.
+    
+    These business definitions were accepted as provided in the dataset.
 
 - **Customer Identification Assumption**
-Customer IDs were assumed to uniquely represent individual customers, even though additional customer profile information was not available for validation.
+    Customer IDs were assumed to uniquely represent individual customers, even though additional customer profile information was not available for validation.
 
 - **Time-Based Assumption**
-The transaction dates in the dataset were assumed to reflect the actual purchase dates and were treated as reliable for trend analysis and time-based insights.
+    The transaction dates in the dataset were assumed to reflect the actual purchase dates and were treated as reliable for trend analysis and time-based insights.
 
 - **Scope Simplification**
-To maintain project feasibility and align with the project scope:
+    To maintain project feasibility and align with the project scope:
 
-External market factors were excluded
+    External market factors were excluded
 
-Economic conditions and competitor activity were not analyzed
+    Economic conditions and competitor activity were not analyzed
 
-Advanced predictive modeling and machine learning were not included
+    Advanced predictive modeling and machine learning were not included
 
-The project focused primarily on descriptive and exploratory analysis using Excel-based tools.
+    The project focused primarily on descriptive and exploratory analysis using Excel-based tools.
 
 ### Limitations
 
 - **Limited Customer Demographics**
 
-The dataset contains only basic demographic information (such as age and gender). Additional attributes like income level, customer loyalty status, geographic region, or occupation were unavailable, limiting deeper customer segmentation analysis.
+    The dataset contains only basic demographic information (such as age and gender). Additional attributes like income level, customer loyalty status, geographic region, or occupation were unavailable, limiting deeper customer segmentation analysis.
 
 -**Lack of External Context**
-The analysis does not include external variables such as:
+   The analysis does not include external variables such as:
 
-Seasonal events
+   Seasonal events
 
-Economic trends
+   Economic trends
 
-Marketing campaign data
+   Marketing campaign data
 
-Competitor activity
+   Competitor activity
 
-These factors may influence customer purchasing behavior and sales performance.
+   These factors may influence customer purchasing behavior and sales performance.
   
 - **Exploratory Rather Than Predictive Analysis**
-The project focused on descriptive and exploratory analysis rather than predictive analytics. A more advanced version of the project could include:
+    The project focused on descriptive and exploratory analysis rather than predictive analytics. A more advanced version of the project could include:
 
-Sales forecasting
+     Sales forecasting
 
-Customer churn prediction
+     Customer churn prediction
 
-Market basket analysis
+     Market basket analysis
 
-Recommendation systems
+     Recommendation systems
 
 - **Tooling Constraints**
-The analysis and dashboard were developed primarily in Microsoft Excel. While effective for exploratory analysis and reporting, Excel has limitations for:
+    The analysis and dashboard were developed primarily in Microsoft Excel. While effective for exploratory analysis and reporting, Excel has limitations for:
 
-Large-scale data processing
+     Large-scale data processing
 
-Automation
+     Automation
 
-Real-time analytics
+     Real-time analytics
 
-Advanced statistical modeling
+     Advanced statistical modeling
 
 - **Potential Data Collection Bias**
-The dataset reflects only recorded transactions available in the source file. If certain transactions, customer groups, or shopping periods were underrepresented or excluded during data collection, the analysis results may not fully represent actual business performance.
+    The dataset reflects only recorded transactions available in the source file. If certain transactions, customer groups, or shopping periods were underrepresented or excluded during data collection, the analysis results may not fully represent actual business performance.
 
 - **Limited Validation of Source Data**
-The project relied on the provided dataset without independent auditing or verification of source systems. Any inaccuracies in the original data source may affect the reliability of insights and conclusions.
+    The project relied on the provided dataset without independent auditing or verification of source systems. Any inaccuracies in the original data source may affect the reliability of insights and conclusions.
 
 > *The goal here is pre-emptive Q&A. What would a thoughtful skeptic push back on? Document the answer here, before they ask.*
 
@@ -447,7 +447,7 @@ The project relied on the provided dataset without independent auditing or verif
 - [ ] **Enhancement 3 — Expand Customer Segmentation Analysis**
       The dataset currently contains limited customer demographic information. Future analysis could integrate additional customer attributes such as location,   loyalty status, income level, or shopping frequency to enable deeper behavioral segmentation and personalized marketing insights.
 - [ ] **Enhancement 4 — Automate the Data Pipeline**
-The data cleaning and transformation process was performed manually using Excel and Power Query. Future improvements could automate the workflow using SQL, Python, or cloud-based ETL tools to improve efficiency, reproducibility, and scalability for larger datasets.
+      The data cleaning and transformation process was performed manually using Excel and Power Query. Future improvements could automate the workflow using SQL, Python, or cloud-based ETL tools to improve efficiency, reproducibility, and scalability for larger datasets.
 
 ---
 
