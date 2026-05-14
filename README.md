@@ -355,20 +355,20 @@ The payment method analysis showed that credit cards were used more frequently t
 
 ### Assumptions
 
--**Data Accuracy Assumption**
-The analysis assumes that the transactional records provided in the dataset are accurate, complete, and correctly recorded at the point of collection. Invoice numbers were treated as unique transaction identifiers without independent verification.
-The analysis assumes that the transactional records provided in the dataset are accurate, complete, and correctly recorded at the point of collection. Invoice numbers were treated as unique transaction identifiers without independent verification.
+- **Data Accuracy Assumption**
+    The analysis assumes that the transactional records provided in the dataset are accurate, complete, and correctly recorded at the point of collection. Invoice numbers were treated as unique transaction identifiers without independent verification.
+    The analysis assumes that the transactional records provided in the dataset are accurate, complete, and correctly recorded at the point of collection. Invoice numbers were treated as unique transaction identifiers without independent verification.
 
 - **Consistent Business Definitions**
     It was assumed that:
     
-    Product categories were correctly assigned
+    1. Product categories were correctly assigned.
     
-    Payment methods were consistently recorded
+    2. Payment methods were consistently recorded.
     
-    Shopping mall names accurately represented transaction locations.
+    3. Shopping mall names accurately represented transaction locations.
     
-    These business definitions were accepted as provided in the dataset.
+    4. These business definitions were accepted as provided in the dataset.
 
 - **Customer Identification Assumption**
     Customer IDs were assumed to uniquely represent individual customers, even though additional customer profile information was not available for validation.
@@ -379,13 +379,13 @@ The analysis assumes that the transactional records provided in the dataset are 
 - **Scope Simplification**
     To maintain project feasibility and align with the project scope:
 
-    External market factors were excluded
+    1. External market factors were excluded.
 
-    Economic conditions and competitor activity were not analyzed
+    2. Economic conditions and competitor activity were not analyzed.
 
-    Advanced predictive modeling and machine learning were not included
+    3. Advanced predictive modeling and machine learning were not included.
 
-    The project focused primarily on descriptive and exploratory analysis using Excel-based tools.
+    4. The project focused primarily on descriptive and exploratory analysis using Excel-based tools.
 
 ### Limitations
 
@@ -393,40 +393,40 @@ The analysis assumes that the transactional records provided in the dataset are 
 
     The dataset contains only basic demographic information (such as age and gender). Additional attributes like income level, customer loyalty status, geographic region, or occupation were unavailable, limiting deeper customer segmentation analysis.
 
--**Lack of External Context**
+- **Lack of External Context**
    The analysis does not include external variables such as:
 
-   Seasonal events
+   1. Seasonal events.
 
-   Economic trends
+   2. Economic trends.
 
-   Marketing campaign data
+   3. Marketing campaign data.
 
-   Competitor activity
+   4. Competitor activity.
 
-   These factors may influence customer purchasing behavior and sales performance.
+   5. These factors may influence customer purchasing behavior and sales performance.
   
 - **Exploratory Rather Than Predictive Analysis**
     The project focused on descriptive and exploratory analysis rather than predictive analytics. A more advanced version of the project could include:
 
-     Sales forecasting
+     1. Sales forecasting.
 
-     Customer churn prediction
+     2. Customer churn prediction.
 
-     Market basket analysis
+     3. Market basket analysis.
 
-     Recommendation systems
+     4. Recommendation systems.
 
 - **Tooling Constraints**
     The analysis and dashboard were developed primarily in Microsoft Excel. While effective for exploratory analysis and reporting, Excel has limitations for:
 
-     Large-scale data processing
+     1. Large-scale data processing.
 
-     Automation
+     2. Automation.
 
-     Real-time analytics
+     3. Real-time analytics.
 
-     Advanced statistical modeling
+     4. Advanced statistical modeling.
 
 - **Potential Data Collection Bias**
     The dataset reflects only recorded transactions available in the source file. If certain transactions, customer groups, or shopping periods were underrepresented or excluded during data collection, the analysis results may not fully represent actual business performance.
