@@ -455,22 +455,25 @@ The payment method analysis showed that credit cards were used more frequently t
 
 | Deliverable | Description | Location |
 |-------------|-------------|----------|
-| [Name] | [What it contains] | [`/path/to/file`] |
-| [Name] | [What it contains] | [`/path/to/file`] |
-| [Name] | [What it contains] | [`/path/to/file`] |
+| Customer_Shopping_Analysis.xlsx| Excel workbook containing Raw_Data, Clean_Data, Analysis, and Dashboard sheets with KPIs, charts, and data visualizations. | /dashboard/Customer_Shopping_Analysis.xlsx |
+| Customer_Shopping_Report.docx |Detailed project report documenting data cleaning, analysis process, insights, recommendations, assumptions, and conclusions. | /reports/Customer_Shopping_Report.docx |
+| Customer_Shopping_Presentation.pptx | PowerPoint presentation summarizing project objectives, methodology, analysis results, dashboard highlights, and business recommendations. | /reports/Customer_Shopping_Presentation.pptx |
+| README.md | GitHub project documentation including workflow, methodology, metrics, insights, and repository structure. | /README.md |
+| dashboard_screenshot.png | Exported image of the final dashboard for quick project preview and portfolio display. | /visuals/dashboard_screenshot.png |
+| cleaned_customer_data.xlsx | Processed and standardized dataset used for analysis and dashboard development. | /data/processed/cleaned_customer_data.xlsx |
 
 ---
 
 ## 13. Author
 
 **Ismail Olamide Abdulrazaq**
-[Your role or title - current or target]
+Data Analyst - Excel & Data Visualization Enthusiast
 
 - 🔗 [LinkedIn URL]
-- 💼 [Portfolio or GitHub profile URL]
+- 💼 Holarbrain.github.io
 - 📧 [Email - optional]
 
 ---
 
 *Last updated: [Month YYYY]*
-*If this template helped you, consider starring the repository.*
+
